@@ -1,7 +1,3 @@
-.v-center {
-    height: 237mm;
-}
-
 /*
 ==================================
 ==================================
@@ -30,9 +26,6 @@ PAGE GENERAL ADJUSTMENTS
 ==================================
 */
 
-.📖-running-header {
-    top: 2cm !important;
-}
 
 /*
 ==================================
@@ -52,27 +45,16 @@ hr {
     opacity: 0;
 }
 
-h1 {
-    font-size: 80pt;
-}
-
 h2 {
     position: absolute;
-    top: -30mm;
-    left: -40mm;
     background: #bbbbbb !important;
     color: #ffffff !important;
-    width: 210mm;
-    height: 297mm;
-    padding: 3cm;
     box-sizing: border-box;
     margin: 0;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    font-size: 80pt;
 }
 
 blockquote {
@@ -117,12 +99,7 @@ CUSTOM TOOLS
 
 .all-page {
     position: absolute;
-    top: -30mm;
-    left: -20mm;
     background: yellow !important;
-    width: 210mm;
-    height: 297mm;
-    padding: 3cm;
     box-sizing: border-box;
     margin: 0;
 
@@ -132,7 +109,7 @@ CUSTOM TOOLS
 }
 
 .text_grey {
-    color: grey;
+    color: #666666;
 }
 
 .text_big {
