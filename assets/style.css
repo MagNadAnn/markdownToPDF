@@ -1,0 +1,156 @@
+.v-center {
+    height: 237mm;
+}
+
+/*
+==================================
+==================================
+FONTS
+==================================
+==================================
+*/
+
+body {
+    color: #333333;
+    font-family: "alegrya";
+}
+
+@font-face {
+    font-family: "alegrya";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/AlegreyaSans-Regular.woff");
+}
+
+   /*
+==================================
+==================================
+PAGE GENERAL ADJUSTMENTS
+==================================
+==================================
+*/
+
+.📖-running-header {
+    top: 2cm !important;
+}
+
+/*
+==================================
+==================================
+AUTOMATIC DESIGNS
+==================================
+==================================
+*/
+
+p > img {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+hr {
+    opacity: 0;
+}
+
+h1 {
+    font-size: 80pt;
+}
+
+h2 {
+    position: absolute;
+    top: -30mm;
+    left: -40mm;
+    background: #bbbbbb !important;
+    color: #ffffff !important;
+    width: 210mm;
+    height: 297mm;
+    padding: 3cm;
+    box-sizing: border-box;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 80pt;
+}
+
+blockquote {
+    border-left: 5pt solid #dddddd;
+    padding: 1pt 0 1pt 7mm;
+    font-style: italic;
+    color: #666666;
+    font-size: 1.25em;
+}
+
+blockquote > p:last-child {
+    font-size: 0.75em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+strong {
+    background: yellow;
+    display: inline-block;
+    padding: 0 2mm;
+    color: #444444;
+}
+
+
+
+/*
+==================================
+==================================
+CUSTOM TOOLS
+==================================
+==================================
+*/
+
+.v-center {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all-page {
+    position: absolute;
+    top: -30mm;
+    left: -20mm;
+    background: yellow !important;
+    width: 210mm;
+    height: 297mm;
+    padding: 3cm;
+    box-sizing: border-box;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+.text_grey {
+    color: grey;
+}
+
+.text_big {
+    font-size: 2em;
+    letter-spacing: 0.025em;
+}
+
+[class*="box_"] {
+    padding: 1pt 5mm;
+    color: white;
+    font-size: 1.25em
+}
+
+.box_info { background-color: dodgerblue; }
+.box_warning { background-color: dodgerblue; }
+.box_danger { background-color: dodgerblue; }
+.box_success { background-color: dodgerblue; }
+
+[class*="box_"] a {
+    color: white;
+}
